@@ -732,7 +732,7 @@
 			}
 
 			function resolveAjaxHandler() {
-				return '/spellcheck/nano/';
+				return (window.ROOT_URL_PATH ? window.ROOT_URL_PATH : '') + '/spellcheck/nano/';
 			}
 
 			function scheduleRender(event) {
