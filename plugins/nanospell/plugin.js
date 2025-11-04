@@ -765,7 +765,7 @@
 			}
 
 			function appendCustomStyles(path) {
-				CKEDITOR.document.appendStyleSheet(path + "/theme/nanospell.css");
+				CKEDITOR.document.appendStyleSheet(path + "theme/nanospell.css");
 			}
 
 			var __memtok = null;
