@@ -732,7 +732,7 @@
 			}
 
 			function resolveAjaxHandler() {
-				return '/spellcheck/nano/';
+				return (window.ROOT_URL_PATH ? window.ROOT_URL_PATH : '') + '/spellcheck/nano/';
 			}
 
 			function scheduleRender(event) {
@@ -765,7 +765,7 @@
 			}
 
 			function appendCustomStyles(path) {
-				CKEDITOR.document.appendStyleSheet(path + "/theme/nanospell.css");
+				CKEDITOR.document.appendStyleSheet(path + "theme/nanospell.css");
 			}
 
 			var __memtok = null;
